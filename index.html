@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+
+    
+    <div class="main">
+        <h1><b>To Do List</b></h1>
+        <input placeholder="What to do...." type="text" id="todo-item">
+        <button class="btn btn-outline-success" onclick="addTodo()">Add</button>
+        <button class="btn btn-outline-danger" onclick="deleteAll()">Delete All</button>
+        <div>
+            <ol id="list"></ol>
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
